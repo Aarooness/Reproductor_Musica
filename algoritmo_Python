@@ -92,7 +92,7 @@ def play_music():       #con esta funcion podremos reproducir la musica que se e
             mixer.music.play()                          #le va a dar play a la cancion cuando presionemos el playPhoto que es basicamente el archivo papas.png
             # statusbar['text'] = "Playing music" + ' - ' + os.path.basename(filename_path)
         except:
-            tkinter.messagebox.showerror('File not found', 'Melody could not find the file. Please check again.')       #si no se escoge el archivo correcto saldra esto
+            tkinter.messagebox.showerror('Archivo no encontrado', 'El archivo no pudo ser encontrado. Por favor intenta de nuevo.')       #si no se escoge el archivo correcto saldra esto
 
 
 def stop_music():                       #si presionamos la imagen de cua(un cuadradito), finalizaremos la reproduccion de la cancion
